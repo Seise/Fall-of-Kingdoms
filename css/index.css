@@ -1,0 +1,464 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  Body Style */
+body{
+color:#D1D1D1;
+background-color:#7A7A7A;
+}
+#titleBar{
+	
+}
+
+/* Latest News */
+#latestNews{
+	position:absolute;
+	margin-top:100px;
+	width:520px;
+		height:400px;
+}
+#latestNews_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	width:250px;
+	padding-right:6px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	margin-left:10px;
+
+}
+
+/*  The formatting for each post */
+.articleContainer{
+position:relative;
+height:100px;
+width:450px;
+margin-left:20px;
+border-bottom: solid 1px;
+	
+}
+
+.articlePicture{
+float:left;
+height:50px;
+width:50px;
+position:absolute;
+margin-top:20px;
+margin-left:5px;
+
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px; 
+overflow:hidden;
+vertical-align:middle;
+}
+
+.articleTitle{
+position:absolute;
+margin-left:80px;
+margin-top:15px;
+font-family:'Squada One', cursive;
+font-size:18px;
+}
+.articleContent{
+	position:absolute;
+margin-left:80px;
+margin-top:50px;
+font-family:'Squada One', cursive;
+font-size:14px;
+}
+.articleDate{
+	
+}
+
+/*  Login Box. The only box now after redesign.*/
+#loginContainer{
+	position:absolute;
+	margin-left:540px;
+	margin-top:100px;
+	
+}
+
+#loginBox{
+	position:absolute;
+	width:500px;
+	height:120px;
+	
+-webkit-box-shadow: 2px 2px 5px 2px rgba(63, 63, 63, .6);
+-moz-box-shadow: 2px 2px 5px 2px rgba(63, 63, 63, .6);
+box-shadow: 2px 2px 5px 2px rgba(63, 63, 63, .6);
+
+background: -moz-linear-gradient(top, rgba(160,160,160,1) 0%, rgba(160,160,160,1) 1%, rgba(122,122,122,0.92) 58%, rgba(63,63,63,0.86) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,160,160,1)), color-stop(1%,rgba(160,160,160,1)), color-stop(58%,rgba(122,122,122,0.92)), color-stop(100%,rgba(63,63,63,0.86))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(160,160,160,1) 0%,rgba(160,160,160,1) 1%,rgba(122,122,122,0.92) 58%,rgba(63,63,63,0.86) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(160,160,160,1) 0%,rgba(160,160,160,1) 1%,rgba(122,122,122,0.92) 58%,rgba(63,63,63,0.86) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(160,160,160,1) 0%,rgba(160,160,160,1) 1%,rgba(122,122,122,0.92) 58%,rgba(63,63,63,0.86) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(160,160,160,1) 0%,rgba(160,160,160,1) 1%,rgba(122,122,122,0.92) 58%,rgba(63,63,63,0.86) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', endColorstr='#db3f3f3f',GradientType=0 ); /* IE6-9 */
+
+}
+
+#loginPicture{
+position:absolute;
+z-index:1;
+margin-left:70px;
+margin-top:10px;
+size:110%;
+
+}
+#loginForm{
+position:absolute;
+z-index:5;
+}
+
+#username{
+	width:190px;
+	background-color:#D1D1D1;
+	border:0px;
+	height:22px;
+	color:#3F3F3F;
+	padding-left:5px;
+	z-index:2;
+}
+#password{
+	width:190px;
+	background-color:#D1D1D1;
+	border:0px;
+	height:22px;
+	color:#3F3F3F;
+	padding-left:5px;
+	z-index:3;
+	}
+
+#loginBox_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	width:98.5%;
+	
+}
+
+#loginInput{
+	margin-left:15px;
+	margin-top:10px;
+	font-family:'Squada One', cursive;
+}
+#indexSubmit{
+	position:absolute;
+	margin-left:400px;
+	margin-top:30px;
+	color:#D1D1D1;
+height:28px;
+width:90px;
+background: rgb(186,186,186); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(186,186,186,1) 1%, rgba(145,145,145,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(186,186,186,1)), color-stop(100%,rgba(145,145,145,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(186,186,186,1) 1%,rgba(145,145,145,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(186,186,186,1) 1%,rgba(145,145,145,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(186,186,186,1) 1%,rgba(145,145,145,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(186,186,186,1) 1%,rgba(145,145,145,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bababa', endColorstr='#919191',GradientType=0 ); /* IE6-9 */
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+
+border: solid 1px #3F3F3F;
+
+}
+/* if there is an error, Put it right here! */
+#loginError{
+	position:absolute;
+	margin-top:68px;
+	margin-left:10px;
+	color:red;
+	font-family:'Alfa Slab One', cursive;
+	font-size:14px;
+}
+
+/* Section for a new player. Have a grey bar, a register button and a link for a new players guide. */
+#newPlayer{
+	margin-left:641px;
+	width:400px;
+	margin-top:250px;
+	height:120px;
+	font-size:16px;
+	
+}
+
+#newPlayer p {
+	font-size:16px;
+	margin-top:5px;
+	float:right;
+	 font-family: 'Squada One', cursive;
+}
+#newPlayer_GrayBar{
+		background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	width:175px;
+	padding-right:6px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+}
+
+/* Current player */
+#currentPlayer{
+	margin-left:641px;
+	width:400px;
+	margin-top:60px;
+	height:140px;
+	font-family: 'Squada One', cursive;
+}
+
+#currentPlayer a{
+	color:#D1D1D1;
+	text-decoration:none;
+	font-size:16px;
+	position:absolute;
+	margin-top:45px;
+	margin-left:320px;
+	text-align:right;
+}
+
+#currentPlayer_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	width:175px;
+	padding-right:6px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+}
+
+#currentPlayer a:hover{
+	font-size:18px;
+}
+
+/* Container for the Lore link and explination */
+#loreContainer{
+	position:absolute;
+	margin-top:105px;
+	height:155px;
+	width:170px;
+	margin-left:50px;
+}
+
+#loreContainer_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	width:175px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+}
+
+#loreContainer p {
+	font-size:16px;
+	margin-top:5px;
+	float:right;
+	font-family: 'Squada One', cursive;
+	text-align:justify;
+}
+
+/* Media Container */
+#mediaContainer{
+	position:absolute;
+	margin-top:105px;
+	height:155px;
+	width:210px;
+	margin-left:455px;
+}
+#mediaContainer a {
+	color:#D1D1D1;
+	text-decoration:none;
+	font-size:12px;
+	position:absolute;
+	margin-top:45px;
+	text-align:right;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+	margin-left:13px;
+	
+}
+
+#mediaContainer_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	width:175px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+}
+
+/* Contact Information */
+
+#contactContainer{
+	position:absolute;
+	margin-top:105px;
+	height:155px;
+	width:320px;
+	
+	margin-left:720px;
+}
+#contactContainer p{
+	margin-top:40px;
+	text-align:right;
+	margin-right:5px;
+	font-family: 'Squada One', cursive;
+}
+
+#contactContainer_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	width:175px;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;	
+}
+/***************************************************************************************************************************************/
+/**************************************************************************************************************************************/
+/* memberIndex items */
+#buttonContainer{
+	position:absolute;
+	margin-left:510px;
+	margin-top:50px;
+}
+#buttons a, a:visited{
+	text-decoration:none;
+	color:#D1D1D1;
+	position:relative;
+}
+
+.button{
+	position:relative;
+	display:inline-block;
+	margin-right:25px;
+	font-family: 'Squada One', cursive;
+}
+#messageContainer{
+	position:absolute;
+	margin-top:180px;
+	margin-left:790px;
+	height:240px;
+	width:350px;
+	
+}
+#message_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	width:98%;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+}
+
+#characterResources{
+	position:absolute;
+	margin-top:450px;
+	margin-left:790px;
+	height:240px;
+	width:350px;
+	
+	}
+#characterResources_GrayBar{
+	background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	width:98%;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+}
+#characterResources a{
+	color:#D1D1D1;
+	text-decoration:none;
+	font-size:16px;
+	position:absolute;
+	margin-top:45px;
+	margin-left:250px;
+	text-align:right;
+	font-family: 'Squada One', cursive;
+}
+#characterResources a:hover{
+	font-size:18px;
+}
+#friendContainer{
+	position:absolute;
+	margin-top:510px;
+	margin-left:1px;
+	height:100px;
+	width:350px;
+	
+}
+#friendContainer_GrayBar{
+background-color:#3F3F3F;
+	height:23px;
+	text-align:right;
+	padding:3px;
+	padding-right:6px;
+	width:98%;
+	font-size:14px;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+	}
+	
+	#loreContainerMembers{
+	position:absolute;
+	margin-top:665px;
+	height:155px;
+	width:170px;
+	margin-left:50px;
+	}
+	
+	#loreContainerMembers p {
+	font-size:16px;
+	margin-top:5px;
+	float:right;
+	font-family: 'Squada One', cursive;
+	text-align:justify;
+}
+	
+	#mediaContainerMembers{
+	position:absolute;
+	margin-top:665px;
+	height:155px;
+	width:210px;
+	margin-left:455px;
+	}
+	#mediaContainerMembers a {
+	color:#D1D1D1;
+	text-decoration:none;
+	font-size:12px;
+	position:absolute;
+	margin-top:45px;
+	text-align:right;
+	font-family:'Alfa Slab One', cursive;
+	float:right;
+	margin-left:13px;
+	
+}

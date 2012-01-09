@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#titleBar{
+height:60px;
+width:107%;
+margin-left:-8px;
+margin-top:-8px;
+background-color:#3F3F3F;
+z-index:5000;
+}
+
+#mainTitle{
+margin-top:-8px;
+z-index:5000;
+position:absolute;
+}
+
+#backgroundPic{
+position:absolute;
+z-index:-5;
+margin-left:300px;
+margin-top:60px;
+}
+
+#backgroundCover{
+position:absolute;
+height:102%;
+margin-left:7px;
+width:104%;
+z-index:-3;
+}
+
+#logout a:link, a:visited, a:active{
+position:absolute;
+color:#D1D1D1;
+text-decoration:none;
+z-index:5000;
+}
+
+#logout{
+position:absolute;
+margin-left:920px;
+margin-top:39px;
+z-index:50005;
+font-family:Squada One, cursive;
+font-size:16px;
+}
+
+#dropDownMenus{
+	position:absolute;
+margin-left:490px;
+}
+
+#charDropDown,  #friendDropDown, #messageDropDown{
+	margin-left:80px;
+	position:absolute;
+	height:500px;
+	width:110px;
+	margin-top:-475px;
+	font-family:Squada One, cursive;
+}
+
+#charText,  #friendText, #messageText{
+	position:absolute;
+	margin-top:480px;
+}
+
+#charDropDown{
+margin-left:-75px;
+}
+
+
+#friendDropDown{
+margin-left:30px;
+}
+
+
+#messageDropDown{
+margin-left:110px;
+}
+.drops{
+	position:absolute;
+	height:500px;
+	background-color:#066;
+	width:200px;
+	z-index:50;
+}
+
+#characterList{
+	margin-left:-120px;
+	background-color:#0F0;
+	margin-top:25px;
+	z-index:50;
+}
+
+#friendList{
+	margin-left:-40px;
+	background-color:#C00;
+	margin-top:25px;
+	z-index:20;
+}
+
+#messageList{
+margin-left:50px;
+background-color:#366;
+margin-top:25px;
+}
