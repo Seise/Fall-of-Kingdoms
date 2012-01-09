@@ -1,4 +1,18 @@
+# What is Fall of Kingdoms
+
+It is going to be a browser based RTS(Real Time Stragegy) game with a javascript/jQuery front 
+end and a PHP backend. It will be non-flash based.
+
 #Why I wrote it
 
 This project was to actually use the PHP and jQuery/javascript knowledge that I already  
-accumulated to
+accumulated to create a browser-based game with javascript/jQuery as the front end and  
+PHP as the backend. I wanted to create something fun while honing my skills at programming.
+Many things are moving away from flash to HTML5, CSS3 and other new technologies. I wanted
+to make a game that was not reliant on flash.It will also
+be a fun browser game I can play with friends and possibly others.
+
+#Why I am proud of it
+
+Though it is not finished, it has helped my skills tremendously in the languages that I am using. 
+It has been a place to focus my skills on.
